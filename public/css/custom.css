@@ -1,0 +1,45 @@
+body {
+  background: url("/images/bg-code.jpg") center center no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+a.nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar_c {
+  margin-top: 15vh;
+}
+
+.nauci {
+  font-size: 9rem;
+  color: white;
+  margin-bottom: -8rem;
+  text-shadow: 0.075em 0.08em 0.1em black;
+}
+
+.php {
+  color: aqua;
+  font-size: 14rem;
+  padding-left: 1rem;
+  text-shadow: 0.075em 0.08em 0.1em black;
+}
+
+.dobrodosli {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0.075em 0.08em 0.1em black;
+  margin-top: 8rem;
+}
+
+.transparent {
+  background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar_c {
+    margin-top: 0;
+  }
+}
+
